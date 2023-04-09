@@ -1,0 +1,260 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    align-items: center;
+    background-color: #000;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    --sonicColor: rgb(0, 47, 255);
+}
+
+.text-frame {
+    position: relative;
+}
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 170px;
+    scale: 0.8 0.5;
+}
+.one {
+    position: absolute;
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: -18px;
+    color: white;
+}
+.two {
+    position: absolute;
+    top: -52px;
+    left: 17px;
+    font-size: 200px;
+    font-weight: 100;
+    color: #000;
+    letter-spacing: 16px;
+    scale: 1 0.94;
+}
+.three {
+    position: absolute;
+    top: -23px;
+    left: 117px;
+    font-size: 160px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 16px;
+    scale: 1.1 1.2;
+}
+.four {
+    position: absolute;
+    top: -21px;
+    left: 230px;
+    font-size: 160px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 16px;
+    scale: 1.2 1.15;
+}
+.five {
+    position: absolute;
+    top: 21px;
+    left: 319px;
+    font-size: 160px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 16px;
+    transform: scaleX(1.2) scaleY(1.15) rotate(180deg);
+}
+.six {
+    position: absolute;
+    top: -21px;
+    left: 390px;
+    font-size: 160px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 16px;
+    scale: 1.2 1.15;
+}
+.des {
+    position: absolute;
+    top: 124px;
+    left: 64px;
+    width: 368px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+/* SONIC */
+.frame {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.sonic {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 110, 254, 0.1);
+}
+.sonic .face {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--sonicColor);
+}
+.sonic .hair1 {
+    position: absolute;
+    top: 172px;
+    left: 59px;
+    width: 150px;
+    height: 90px;
+    rotate: 5deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--sonicColor);
+}
+.sonic .hair2 {
+    position: absolute;
+    top: 215px;
+    left: 72px;
+    width: 150px;
+    height: 90px;
+    rotate: 23deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--sonicColor);
+}
+.sonic .hair3 {
+    position: absolute;
+    top: 225px;
+    left: 58px;
+    width: 150px;
+    height: 70px;
+    rotate: 61deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--sonicColor);
+}
+.sonic .hair4 {
+    position: absolute;
+    top: 162px;
+    left: 30px;
+    width: 150px;
+    height: 70px;
+    rotate: 327deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--sonicColor);
+}
+.sonic .hair5 {
+    position: absolute;
+    top: 213px;
+    left: 25px;
+    width: 100px;
+    height: 70px;
+    rotate: 239deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--sonicColor);
+}
+.sonic .eye1 {
+    position: absolute;
+    top: 270px;
+    left: 76px;
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    border-radius: 54% 47% 73% 0% / 64% 37% 63% 1%;
+    rotate: 10deg;
+}
+.sonic .eye2 {
+    position: absolute;
+    top: 252px;
+    left: 79px;
+    width: 35px;
+    height: 45px;
+    border-radius: 50%;
+    rotate: 5deg;
+    background-color: rgb(255 255 255);
+}
+.sonic .eye3 {
+    position: absolute;
+    top: 268px;
+    left: 95px;
+    width: 8px;
+    height: 27px;
+    border-radius: 50%;
+    rotate: 332deg;
+    background-color: var(--sonicColor);
+}
+.sonic .eye4 {
+    position: absolute;
+    top: 266px;
+    left: 77px;
+    width: 10px;
+    height: 25px;
+    border-radius: 50%;
+    rotate: 12deg;
+    background-color: rgb(255 255 255);
+}
+.sonic .eye5 {
+    position: absolute;
+    top: 287px;
+    left: 76px;
+    width: 5px;
+    height: 20px;
+    border-radius: 50%;
+    rotate: 75deg;
+    background-color: rgb(255 255 255);
+}
+.sonic .eye6 {
+    position: absolute;
+    top: 268px;
+    left: 51px;
+    width: 9px;
+    height: 39px;
+    border-radius: 50%;
+    rotate: 148deg;
+    background-color: rgb(255 255 255);
+}
+.sonic .eye7 {
+    position: absolute;
+    top: 274px;
+    left: 55px;
+    width: 6px;
+    height: 28px;
+    border-radius: 50%;
+    rotate: 148deg;
+    background-color: var(--sonicColor);
+}
+.sonic .nose1 {
+    position: absolute;
+    top: 296px;
+    left: 58px;
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #080808;
+}
+.sonic .nose2 {
+    position: absolute;
+    top: 299px;
+    left: 59px;
+    width: 6px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+}
