@@ -31,52 +31,10 @@ body {
     font-weight: 900;
     letter-spacing: -18px;
     color: white;
+    opacity: 0;
+    animation: show 1.5s 4.5s forwards;
 }
-.two {
-    position: absolute;
-    top: -51px;
-    left: 17px;
-    font-size: 200px;
-    font-weight: 100;
-    letter-spacing: 16px;
-    scale: 1 0.94;
-}
-.three {
-    position: absolute;
-    top: -23px;
-    left: 117px;
-    font-size: 160px;
-    font-weight: 400;
-    letter-spacing: 16px;
-    scale: 1.1 1.2;
-}
-.four {
-    position: absolute;
-    top: -19px;
-    left: 229px;
-    font-size: 160px;
-    font-weight: 400;
-    letter-spacing: 16px;
-    scale: 1.3 1.1;
-}
-.five {
-    position: absolute;
-    top: 21px;
-    left: 319px;
-    font-size: 160px;
-    font-weight: 400;
-    letter-spacing: 16px;
-    transform: scaleX(1.2) scaleY(1.15) rotate(180deg);
-}
-.six {
-    position: absolute;
-    top: -21px;
-    left: 390px;
-    font-size: 160px;
-    font-weight: 400;
-    letter-spacing: 16px;
-    scale: 1.2 1.15;
-}
+
 .des {
     position: absolute;
     top: 124px;
@@ -90,8 +48,14 @@ body {
     font-size: 20px;
     letter-spacing: 10px;
     font-weight: 700;
+    opacity: 0;
+    animation: show 1.3s 6s forwards;
 }
-
+@keyframes show{
+    to{
+        opacity: 1;
+    }
+}
 /* SONIC */
 .frame {
     width: 800px;
@@ -107,6 +71,18 @@ body {
     width: 250px;
     height: 500px;
     background-color: rgba(0, 110, 254, 0.1);
+    animation: sonic-spin 4s ;
+   
+}
+@keyframes sonic-spin{
+    from{
+        top: -800px;
+        rotate: y 360deg;
+    }
+    to{
+        top: 0;
+        rotate: y 0deg;
+    }
 }
 .sonic .face {
     position: absolute;
@@ -262,6 +238,17 @@ body {
     width: 250px;
     height: 500px;
     background-color: rgba(254, 0, 0, 0.1);
+    animation: knuckles-spin 1.5s ;
+}
+@keyframes knuckles-spin{
+    from{
+        left: -800px;
+        rotate: y 360deg;
+    }
+    to{
+        left: 0;
+        rotate: y 0deg;
+    }
 }
 .knuckles .face {
     position: absolute;
@@ -366,8 +353,18 @@ body {
     width: 250px;
     height: 500px;
     background-color: rgba(254, 246, 0, 0.1);
+    animation: tails-spin 1.5s;
 }
-
+@keyframes tails-spin{
+    from{
+        right: -800px;
+        rotate: y 360deg;
+    }
+    to{
+        right: 0;
+        rotate: y 0deg;
+    }
+}
 .tails .face{
     position: absolute;
     top: 200px;
