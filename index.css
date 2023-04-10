@@ -10,6 +10,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     --sonicColor: #0125c3;
     --knucklesColor: #f84120;
+    --tailsColor:#ffc107;
 }
 
 .text-frame {
@@ -365,4 +366,175 @@ body {
     width: 250px;
     height: 500px;
     background-color: rgba(254, 246, 0, 0.1);
+}
+
+.tails .face{
+    position: absolute;
+    top: 200px;
+    left: 62px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--tailsColor);
+}
+.tails .hair1{
+    position: absolute;
+    top: 273px;
+    left: 37px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 2deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair2{
+    position: absolute;
+    top: 286px;
+    left: 34px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 345deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair3{
+    position: absolute;
+    top: 290px;
+    left: 37px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 309deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair4{
+    position: absolute;
+    top: 299px;
+    left: 48px;
+    width: 77px;
+    height: 15px;
+    border-radius: 50%;
+    rotate: 291deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair5{
+    position: absolute;
+    top: 268px;
+    left: 140px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 4deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair6{
+    position: absolute;
+    top: 282px;
+    left: 140px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 20deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair7{
+    position: absolute;
+    top: 291px;
+    left: 132px;
+    width: 77px;
+    height: 22px;
+    border-radius: 50%;
+    rotate: 45deg;
+    background-color: var(--tailsColor);
+}
+.tails .hair8{
+    position: absolute;
+    top: 296px;
+    left: 124px;
+    width: 77px;
+    height: 15px;
+    border-radius: 50%;
+    rotate: 248deg;
+    background-color: var(--tailsColor);
+}
+
+.tails .ear1{
+    position: absolute;
+    top: 177px;
+    left: 19px;
+    width: 150px;
+    height: 94px;
+    rotate: 254deg;
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--tailsColor);
+
+}
+.tails .ear2{
+    position: absolute;
+    top: 161px;
+    left: 95px;
+    width: 150px;
+    height: 94px;
+    transform: rotate(93deg)scaleX(-1);
+    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    background-color: var(--tailsColor);
+
+}
+.tails .eye1{
+    position: absolute;
+    left: 83px;
+    top: 228px;
+    width: 34px;
+    height: 62px;
+    background-color: white;
+    rotate: 347deg;
+    border-radius: 50% 50% 41% 28% / 60% 39% 62% 40%;
+}
+.tails .eye2{
+    position: absolute;
+    left: 135px;
+    top: 228px;
+    width: 34px;
+    height: 62px;
+    background-color: white;
+    rotate: 2deg;
+    border-radius: 50% 50% 41% 28% / 60% 39% 62% 40%;
+}
+.tails .eye3{
+    position: absolute;
+    top: 275px;
+    left: 75px;
+    width: 51px;
+    height: 10px;
+    border-radius: 50%;
+    rotate: 79deg;
+    background-color: var(--tailsColor);
+}
+.tails .eye4{
+    position: absolute;
+    top: 275px;
+    left: 121px;
+    width: 51px;
+    height: 10px;
+    border-radius: 50%;
+    rotate: 89deg;
+    background-color: var(--tailsColor);
+}
+.tails .nose1{
+    position: absolute;
+    top: 288px;
+    left: 117px;
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #080808;
+}
+.tails .nose2{
+    position: absolute;
+    top: 291px;
+    left: 122px;
+    width: 6px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fff;
 }
