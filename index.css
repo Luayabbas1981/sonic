@@ -3,8 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 2rem;
     align-items: center;
+    row-gap: 2rem;
     background-color: #000;
     overflow: hidden;
     font-family: "Noto Sans", sans-serif;
@@ -15,31 +15,24 @@ body {
 
 .text-frame {
     position: relative;
+
 }
-.text {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 170px;
-    scale: 0.8 0.5;
-}
-.one {
-    position: absolute;
-    font-size: 200px;
+
+.sonic-text {
+   
+    font-size: 150px;
     font-weight: 900;
     letter-spacing: -18px;
     color: white;
+    scale: 1 .7;
     opacity: 0;
     animation: show 1.5s 4.5s forwards;
 }
 
 .des {
     position: absolute;
-    top: 124px;
-    left: 64px;
-    width: 368px;
+    top: 143px;
+    width: 329px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -49,7 +42,7 @@ body {
     letter-spacing: 10px;
     font-weight: 700;
     opacity: 0;
-    animation: show 1.3s 6s forwards;
+    animation: show 1.3s 5.7s forwards;
 }
 @keyframes show{
     to{
