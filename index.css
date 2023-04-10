@@ -15,6 +15,7 @@ body {
 
 .text-frame {
     position: relative;
+    top: -30px;
 
 }
 
@@ -57,8 +58,17 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 25px;
+    
 }
-
+@media (max-width:700px){
+    .frame{
+        scale: .47;
+    }
+    .text-frame{
+        top: -200px;
+        scale: .6;
+    }
+}
 .sonic {
     position: relative;
     width: 250px;
@@ -334,7 +344,7 @@ body {
 .knuckles .nose2{
     position: absolute;
     top: 307px;
-    left: 46px;
+    left: 45px;
     width: 6px;
     height: 3px;
     border-radius: 50%;
