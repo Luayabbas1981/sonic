@@ -27,7 +27,7 @@ body {
     color: white;
     scale: 1 .7;
     opacity: 0;
-    animation: show 1.5s 4.2s forwards;
+    animation: show 1.5s 16s forwards;
 }
 
 .des {
@@ -43,7 +43,7 @@ body {
     letter-spacing: 10px;
     font-weight: 700;
     opacity: 0;
-    animation: show 1.3s 5.2s forwards;
+    animation: show 1.3s 17s forwards;
 }
 @keyframes show{
     to{
@@ -71,17 +71,17 @@ body {
 }
 .sonic {
     position: relative;
+    top: -800px;
     width: 250px;
     height: 500px;
+    rotate: y 360deg;
     background-color: rgba(0, 110, 254, 0.1);
-    animation: sonic-spin 4s ;
+    animation: sonic-spin 4s 12s forwards;
    
 }
+
 @keyframes sonic-spin{
-    from{
-        top: -800px;
-        rotate: y 360deg;
-    }
+    
     to{
         top: 0;
         rotate: y 0deg;
@@ -238,6 +238,7 @@ body {
 /* knuckles */
 .knuckles {
     position: relative;
+    perspective: 500px;
     width: 250px;
     height: 500px;
     background-color: rgba(254, 0, 0, 0.1);
@@ -261,6 +262,8 @@ body {
     height: 120px;
     border-radius: 50%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 2s linear forwards ; 
 }
 .knuckles .hair1 {
     position: absolute;
@@ -271,6 +274,8 @@ body {
     rotate: 0deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 3s linear forwards ; 
 }
 .knuckles .hair2 {
     position: absolute;
@@ -281,6 +286,8 @@ body {
     rotate: 208deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 4s linear forwards ; 
 }
 .knuckles .hair3 {
     position: absolute;
@@ -291,6 +298,8 @@ body {
     rotate: 46deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 5s linear forwards ; 
 }
 .knuckles .hair4 {
     position: absolute;
@@ -301,6 +310,8 @@ body {
     rotate: 46deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 6s linear forwards ; 
 }
 .knuckles .hair5 {
     position: absolute;
@@ -311,6 +322,8 @@ body {
     rotate: 115deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 7s linear forwards ; 
 }
 .knuckles .eye1 {
     position: absolute;
@@ -321,6 +334,8 @@ body {
     rotate: 115deg;
     border-radius: 0% 50%;
     background-color: white;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 8s linear forwards ; 
 }
 .knuckles .eye2 {
     position: absolute;
@@ -331,6 +346,8 @@ body {
     border-radius: 50%;
     rotate: 332deg;
     background-color: var(--knucklesColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 9s linear forwards ; 
 }
 .knuckles .nose1{
     position: absolute;
@@ -340,6 +357,8 @@ body {
     height: 10px;
     border-radius: 50%;
     background-color: #080808;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 10s linear forwards ; 
 }
 .knuckles .nose2{
     position: absolute;
@@ -349,10 +368,19 @@ body {
     height: 3px;
     border-radius: 50%;
     background-color: #fff;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 11s linear forwards ; 
+}
+@keyframes zd {
+    
+    to{
+        transform: translateZ(0px) rotateX(0deg) rotateY(0deg);
+    }
 }
 /* tails */
 .tails {
     position: relative;
+    perspective: 500px;
     width: 250px;
     height: 500px;
     background-color: rgba(254, 246, 0, 0.1);
@@ -376,6 +404,8 @@ body {
     height: 130px;
     border-radius: 50%;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 2s linear forwards ; 
 }
 .tails .hair1{
     position: absolute;
@@ -386,6 +416,8 @@ body {
     border-radius: 50%;
     rotate: 2deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 3s linear forwards ; 
 }
 .tails .hair2{
     position: absolute;
@@ -396,6 +428,8 @@ body {
     border-radius: 50%;
     rotate: 345deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 4s linear forwards ; 
 }
 .tails .hair3{
     position: absolute;
@@ -406,6 +440,8 @@ body {
     border-radius: 50%;
     rotate: 309deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 5s linear forwards ; 
 }
 .tails .hair4{
     position: absolute;
@@ -416,6 +452,8 @@ body {
     border-radius: 50%;
     rotate: 291deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 6s linear forwards ; 
 }
 .tails .hair5{
     position: absolute;
@@ -426,6 +464,8 @@ body {
     border-radius: 50%;
     rotate: 4deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 3s linear forwards ; 
 }
 .tails .hair6{
     position: absolute;
@@ -436,6 +476,8 @@ body {
     border-radius: 50%;
     rotate: 20deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 4s linear forwards ; 
 }
 .tails .hair7{
     position: absolute;
@@ -446,6 +488,8 @@ body {
     border-radius: 50%;
     rotate: 45deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 5s linear forwards ; 
 }
 .tails .hair8{
     position: absolute;
@@ -456,6 +500,8 @@ body {
     border-radius: 50%;
     rotate: 248deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 6s linear forwards ; 
 }
 
 .tails .ear1{
@@ -467,17 +513,21 @@ body {
     rotate: 254deg;
     border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 7s linear forwards ; 
 
 }
 .tails .ear2{
     position: absolute;
-    top: 161px;
+    top: 167px;
     left: 95px;
-    width: 150px;
-    height: 94px;
-    transform: rotate(93deg)scaleX(-1);
-    border-radius: 89% 6% 86% 6% / 78% 4% 98% 18%;
+    width: 143px;
+    height: 78px;
+    rotate: 144deg;
+    border-radius: 78% 4% 98% 18%/ 89% 6% 86% 6%;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+    animation: zd 1s 7s linear forwards;
 
 }
 .tails .eye1{
@@ -489,6 +539,8 @@ body {
     background-color: white;
     rotate: 347deg;
     border-radius: 50% 50% 41% 28% / 60% 39% 62% 40%;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 8s linear forwards ; 
 }
 .tails .eye2{
     position: absolute;
@@ -499,6 +551,8 @@ body {
     background-color: white;
     rotate: 2deg;
     border-radius: 50% 50% 41% 28% / 60% 39% 62% 40%;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 8s linear forwards ; 
 }
 .tails .eye3{
     position: absolute;
@@ -509,6 +563,8 @@ body {
     border-radius: 50%;
     rotate: 79deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 9s linear forwards ; 
 }
 .tails .eye4{
     position: absolute;
@@ -519,6 +575,8 @@ body {
     border-radius: 50%;
     rotate: 89deg;
     background-color: var(--tailsColor);
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 9s linear forwards ; 
 }
 .tails .nose1{
     position: absolute;
@@ -528,6 +586,8 @@ body {
     height: 10px;
     border-radius: 50%;
     background-color: #080808;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 10s linear forwards ; 
 }
 .tails .nose2{
     position: absolute;
@@ -537,4 +597,6 @@ body {
     height: 3px;
     border-radius: 50%;
     background-color: #fff;
+    transform: translateZ(800px) rotateX(360deg) rotateY(360deg);
+     animation: zd 1s 11s linear forwards ; 
 }
