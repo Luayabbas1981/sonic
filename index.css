@@ -75,7 +75,7 @@ body {
     width: 250px;
     height: 500px;
     rotate: y 360deg;
-    background-color: rgba(0, 110, 254, 0.1);
+    background-color: rgba(0, 110, 254, 0.17);
     animation: sonic-spin 4s 12s forwards;
    
 }
@@ -241,7 +241,7 @@ body {
     perspective: 500px;
     width: 250px;
     height: 500px;
-    background-color: rgba(254, 0, 0, 0.1);
+    background-color: rgba(254, 0, 0, 0.17);
     animation: knuckles-spin 1.5s ;
 }
 @keyframes knuckles-spin{
@@ -383,7 +383,7 @@ body {
     perspective: 500px;
     width: 250px;
     height: 500px;
-    background-color: rgba(254, 246, 0, 0.1);
+    background-color: rgba(254, 246, 0, 0.17);
     animation: tails-spin 1.5s;
 }
 @keyframes tails-spin{
