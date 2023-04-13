@@ -178,13 +178,13 @@ body {
 }
 .sonic .eye4 {
     position: absolute;
-    top: 266px;
-    left: 77px;
+    top: 263px;
+    left: 76px;
     width: 10px;
-    height: 25px;
+    height: 33px;
     border-radius: 50%;
     rotate: 12deg;
-    background-color: rgb(255 255 255);
+    background-color: #ffffff;
 }
 .sonic .eye5 {
     position: absolute;
