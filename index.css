@@ -29,7 +29,7 @@ body {
     animation: sega 1.5s forwards ,move 3s infinite alternate-reverse;
     animation-delay: calc(1.21s * var(--d)); 
     color: transparent;
-    background-image: url(./ffff.png);
+    background-image: url(./sega.png);
     background-size: 200%;
     -webkit-background-clip: text;
    
