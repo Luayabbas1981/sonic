@@ -24,15 +24,13 @@ body {
 }
 
 .sega div {
-   
-      rotate: y -90deg;
+    rotate: y -90deg;
     animation: sega 1.5s forwards ,move 3s infinite alternate-reverse;
-    animation-delay: calc(1.21s * var(--d)); 
+    animation-delay: calc(1.21s * var(--d));
     color: transparent;
-    background-image: url(./sega.png);
-    background-size: 200%;
+    background: linear-gradient(48deg, rgba(19,73,255,1) 0%, rgba(52,60,196,1) 63%, rgba(255,0,0,1) 83%, rgba(242,19,19,1) 100%);
+    background-size: 300%;
     -webkit-background-clip: text;
-   
 }
 
 @keyframes sega {
